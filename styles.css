@@ -1,0 +1,15 @@
+/* Start CSS for mobile first */
+
+/* End CSS for mobile first */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Start CSS for tablet */
+
+  /* End CSS for tablet */
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Start CSS for desktop */
+
+  /* End CSS for desktop */
+}
