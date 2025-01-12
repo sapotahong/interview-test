@@ -1,4 +1,20 @@
 /* Start CSS for mobile first */
+/* General reset for body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main container for the page */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 32px;
+  width: 100%;
+  box-sizing: border-box;;
+}
 
 /* End CSS for mobile first */
 
