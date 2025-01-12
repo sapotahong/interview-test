@@ -88,7 +88,7 @@ img {
   padding: 40px 18px 20px;
 }
 
-/* CSS Mobile */
+/* CSS Tablet vertical and Mobile */
 @media only screen and (max-width: 768px) {
   .section__row {
     flex-direction: column;
@@ -107,10 +107,14 @@ img {
   }
 }
 
-/* Tablet and larger screens (responsive design) */
-@media only screen and (min-width: 769px) {
+/* Desktop larger screens (responsive design) */
+@media only screen and (min-width: 1025px) {
   main {
     padding: 80px 32px;
+  }
+
+  .section__text-row {
+    padding: 35px 50px;
   }
 
   .section__title {
@@ -121,16 +125,34 @@ img {
 
   .section__image-container {
     gap: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 43px;
   }
 
   .section__description {
     font-size: 16px;
+    margin-bottom: 80px
   }
 
   .section__column--text {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+  }
+
+  .section__text-row-title {
+    font-size: 64px;
+    line-height: 74px;
+  }
+
+  .section__text-row-paragraph-title {
+    font-size: 20px;
+  }
+
+  .section__row--2 .section__text-row {
+    padding-bottom: 60px;
+  }
+
+  .section__row--2 .section__text-row-title {
+    margin-bottom: 35px;
   }
 }
